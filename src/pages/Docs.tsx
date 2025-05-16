@@ -5,6 +5,7 @@ import Layout from "@/components/layout/Layout";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CheckSquareIcon, FileTextIcon, LifeBuoyIcon } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const Docs = () => {
   const [searchQuery, setSearchQuery] = useState("");
